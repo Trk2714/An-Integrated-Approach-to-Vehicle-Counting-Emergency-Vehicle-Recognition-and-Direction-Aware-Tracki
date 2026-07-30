@@ -1,0 +1,106 @@
+{
+  "gpu": {
+    "device_index": 0,
+    "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "total_memory_gb": 8.0,
+    "cuda_runtime_version": "11.8",
+    "torch_version": "2.7.1+cu118"
+  },
+  "train_args": {
+    "epochs": 6,
+    "batch": 32,
+    "lr": 0.0001,
+    "sample_rate": 22050,
+    "n_mels": 128,
+    "target_frames": 256
+  },
+  "best_model_path": "C:\\Users\\raash\\Desktop\\vehicle-counting-and-tracking\\models\\audio_siren_resnet18.pt",
+  "best_val_f1": 1.0,
+  "test_metrics": {
+    "accuracy": 0.9853801169590644,
+    "precision": 0.9919354838709677,
+    "recall": 0.9879518072289156,
+    "f1": 0.9899396378269618,
+    "loss": 0.05231205103319814
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.16876264749534764,
+      "val_loss": 0.5010622148989233,
+      "train_accuracy": 0.9302763819095478,
+      "train_precision": 0.9477739726027398,
+      "train_recall": 0.9567847882454624,
+      "train_f1": 0.952258064516129,
+      "val_accuracy": 0.7888563049853372,
+      "val_precision": 0.775,
+      "val_recall": 1.0,
+      "val_f1": 0.8732394366197183
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.041490787716264174,
+      "val_loss": 0.06725877226272986,
+      "train_accuracy": 0.989321608040201,
+      "train_precision": 0.9922279792746114,
+      "train_recall": 0.993085566119274,
+      "train_f1": 0.9926565874730021,
+      "val_accuracy": 0.9648093841642229,
+      "val_precision": 0.9538461538461539,
+      "val_recall": 1.0,
+      "val_f1": 0.9763779527559056
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.028235466006544217,
+      "val_loss": 0.3042428892903314,
+      "train_accuracy": 0.9899497487437185,
+      "train_precision": 0.9913867355727821,
+      "train_recall": 0.9948141745894555,
+      "train_f1": 0.9930974978429681,
+      "val_accuracy": 0.8651026392961877,
+      "val_precision": 0.8435374149659864,
+      "val_recall": 1.0,
+      "val_f1": 0.915129151291513
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.02389418424034594,
+      "val_loss": 0.010753021649251586,
+      "train_accuracy": 0.9905778894472361,
+      "train_precision": 0.9939446366782007,
+      "train_recall": 0.993085566119274,
+      "train_f1": 0.993514915693904,
+      "val_accuracy": 0.9970674486803519,
+      "val_precision": 0.9959839357429718,
+      "val_recall": 1.0,
+      "val_f1": 0.9979879275653923
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.023712766017465286,
+      "val_loss": 0.1355270262687437,
+      "train_accuracy": 0.9918341708542714,
+      "train_precision": 0.9939550949913645,
+      "train_recall": 0.9948141745894555,
+      "train_f1": 0.9943844492440604,
+      "val_accuracy": 0.9178885630498533,
+      "val_precision": 0.8985507246376812,
+      "val_recall": 1.0,
+      "val_f1": 0.9465648854961832
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.031758815728727,
+      "val_loss": 0.0029191910535031574,
+      "train_accuracy": 0.9899497487437185,
+      "train_precision": 0.9939393939393939,
+      "train_recall": 0.9922212618841832,
+      "train_f1": 0.9930795847750865,
+      "val_accuracy": 1.0,
+      "val_precision": 1.0,
+      "val_recall": 1.0,
+      "val_f1": 1.0
+    }
+  ]
+}
