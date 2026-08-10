@@ -47,3 +47,46 @@ Traffic Camera + Audio
      Decision Making
           ↓
  Dashboard, Alerts & Insights
+ ## Technologies Used
+
+### Programming Language
+- Python
+
+### Deep Learning & Computer Vision
+- YOLO
+- PyTorch
+- OpenCV
+- Optical Flow
+
+### Backend & Database
+- FastAPI
+- SQLAlchemy
+
+### AI & Data Processing
+- Deep Learning
+- Computer Vision
+- Audio Processing
+- Multimodal Data Processing
+
+## Main Modules
+
+### Vehicle Detection
+YOLO is used to detect vehicles such as cars, buses, trucks, and motorcycles from traffic camera footage.
+
+### Vehicle Tracking
+Tracking algorithms assign unique IDs to vehicles and maintain their movement across video frames.
+
+### Direction Analysis
+Vehicle movement is analyzed to determine traffic direction and understand traffic flow across different lanes.
+
+### Vehicle Counting
+Virtual counting lines are used to count vehicles while reducing duplicate counting.
+
+### Emergency Vehicle Recognition
+Emergency vehicles are recognized using visual information and siren audio signals.
+
+### Traffic Analysis
+The system analyzes vehicle density, movement patterns, traffic flow, and congestion levels.
+
+### Dashboard
+An interactive dashboard provides traffic information, vehicle tracking results, emergency alerts, and traffic insights.
