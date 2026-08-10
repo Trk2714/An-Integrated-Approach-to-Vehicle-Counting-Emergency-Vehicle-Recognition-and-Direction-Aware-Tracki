@@ -47,11 +47,8 @@ Traffic Camera + Audio
      Decision Making
           ↓
  Dashboard, Alerts & Insights
-
-
-
-
- ## Technologies Used
+```
+## Technologies Used
 
 ### Programming Language
 - Python
@@ -94,3 +91,85 @@ The system analyzes vehicle density, movement patterns, traffic flow, and conges
 
 ### Dashboard
 An interactive dashboard provides traffic information, vehicle tracking results, emergency alerts, and traffic insights.
+
+## Project Structure
+
+```text
+├── backend/
+├── frontend/
+├── models/
+├── runs/
+├── training/
+├── main.py
+├── requirements.txt
+├── yolov8n.pt
+├── yolo26n.pt
+└── README.md
+```
+## Run App Locally
+
+### Requirements
+
+- Python 3.11
+- Internet access on first run to download/cache the Hugging Face audio model
+
+### Install Dependencies
+
+
+pip install -r requirements.txt
+---
+python main.py
+----
+## Applications
+
+- Smart city traffic management
+- Real-time traffic monitoring
+- Emergency vehicle recognition
+- Traffic congestion analysis
+- Vehicle counting
+- Highway traffic monitoring
+- Intersection monitoring
+- Intelligent transportation systems
+
+## Advantages
+
+- Real-time vehicle detection and tracking
+- Direction-aware traffic analysis
+- Automated vehicle counting
+- Emergency vehicle recognition using video and audio
+- Traffic density analysis
+- Real-time alerts and insights
+- Interactive traffic monitoring dashboard
+
+## Limitations
+
+- Real-time processing requires sufficient computational resources.
+- Poor video quality or low lighting can affect detection.
+- Background noise can affect siren recognition.
+- Vehicle occlusion can affect tracking accuracy in highly congested areas.
+- GPU hardware may be beneficial for real-time processing.
+
+## Future Scope
+
+- Predictive traffic analytics
+- Smart traffic signal integration
+- IoT integration
+- Cloud and edge computing
+- Mobile application integration
+- Accident detection
+- Traffic violation monitoring
+- Improved siren detection
+- Continuous training using real-world traffic data
+
+## Project Goal
+
+The goal of this project is to combine **vehicle detection, tracking, direction analysis, emergency vehicle recognition, and real-time traffic analysis** into a single intelligent traffic management system.
+
+## Author
+
+**Tarakeswar Reddy**
+
+**Aspiring Software Engineer | Java Full Stack | AI/ML**
+
+
+
